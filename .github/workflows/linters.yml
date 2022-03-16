@@ -7,7 +7,7 @@ env:
 
 jobs:
   lighthouse:
-    name: Lighthouse
+    name: Lighthouse 
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
