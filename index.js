@@ -9,7 +9,7 @@ btn.addEventListener('click', () => {
     menu.style.display = 'flex';
 })
 close.addEventListener('click', () => {
-    menu.style.display = 'none';
+    menu.style.display = 'block';
   })
   list.forEach(li=> {
     li.addEventListener('click', () => {

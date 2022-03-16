@@ -51,6 +51,33 @@ header {
   color: white;
 }
 
+#mobile-nav {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: red;
+  color: #fff;
+  z-index: 10;
+  padding-top: 100px;
+}
+
+#mobile-nav span {
+  align-self: flex-end;
+  color: white;
+  font-size: 30px;
+  margin: 20px;
+}
+
+#mobile-nav a {
+  color: yellow;
+  border-bottom: solid 1px red;
+  padding-bottom: 20px;
+}
+
 main {
   display: flex;
   flex-direction: column;
