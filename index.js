@@ -1,4 +1,3 @@
-console.log('hello roshan');
 window.addEventListener('DOMContentLoaded', () => {
   const btn = document.querySelector('#menu_btn');
   const menu = document.querySelector('#mobile-nav');
@@ -9,7 +8,7 @@ window.addEventListener('DOMContentLoaded', () => {
     menu.style.display = 'flex';
   });
   close.addEventListener('click', () => {
-    menu.style.display = 'block';
+    menu.style.display = 'none';
   });
   list.forEach((li) => {
     li.addEventListener('click', () => {
