@@ -27,7 +27,8 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
+#desktop-nav,
+#desktop-nav ul {
   display: none;
 }
 
@@ -49,6 +50,34 @@ header {
   width: 18px;
   height: 12px;
   color: white;
+}
+
+#mobile-nav {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #3c3a39;
+  color: #fff;
+  z-index: 10;
+  padding-top: 99px;
+}
+
+#mobile-nav span {
+  align-self: flex-end;
+  color: white;
+  font-size: 30px;
+  margin: 20px;
+}
+
+#mobile-nav a {
+  color: #fff5e1;
+  border-bottom: 1px solid #6f6c6b;
+  padding-bottom: 10px;
+  font-size: 32px;
 }
 
 main {
