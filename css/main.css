@@ -60,7 +60,7 @@ header {
   bottom: 0;
   left: 0;
   right: 0;
-  background: red;
+  background: #3C3A39;
   color: #fff;
   z-index: 10;
   padding-top: 99px;
@@ -74,9 +74,10 @@ header {
 }
 
 #mobile-nav a {
-  color: yellow;
-  border-bottom: solid 1px red;
-  padding-bottom: 20px;
+  color: #FFF5E1;
+  border-bottom: 1px solid #6F6C6B;
+  padding-bottom: 10px;
+  font-size: 32px;
 }
 
 main {
